@@ -9,7 +9,9 @@ factor since the tree splits at Rotten Tomatoes Score 3 times and this
 factor is at the root of the tree.
 
 ``` r
+#set the working directory
 setwd('C:/Users/admin/Documents/R Data Analysis')
+
 project_data = read_csv("Final_Project_FlixGem.csv")
 ```
 

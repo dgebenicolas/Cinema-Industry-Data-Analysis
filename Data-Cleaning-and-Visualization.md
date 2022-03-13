@@ -47,7 +47,7 @@ project_data
     ## #   IMDb Votes <dbl>, Image <chr>, Poster <chr>, TMDb Trailer <chr>, ...
 
 ``` r
-#cleaned data without missing values and series column
+#cleaned data without missing values and series columns
 q1_cleaned_data = project_data %>% drop_na() 
 q1_cleaned_data = filter(q1_cleaned_data, q1_cleaned_data$`Series or Movie`=="Movie")
 q1_cleaned_data
